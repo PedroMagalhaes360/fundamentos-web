@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -16,38 +17,70 @@
         </li>
     </ul>
 
-    <h1>Sobre o Pedro</h1>
+    <h1 class="center">Sobre o Pedro</h1>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perferendis. Possimus commodi
-        praesentium neque totam incidunt quibusdam deleniti omnis! Impedit, distinctio. Deleniti itaque
-        labore quod voluptas eveniet? Minima, itaque obcaecati.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo earum sequi, a eligendi pariatur
-        quisquam ut tempora quod, similique consequatur soluta nam molestiae vero rerum, optio quidem
-        nostrum. Perferendis, quas!
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ipsa molestiae. Amet sequi eos
-        sapiente ex excepturi asperiores modi repellat alias facilis. Sequi iste, mollitia quod a aliquam
-        id odio.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem esse eligendi soluta, eos
-        placeat saepe ipsum ullam repellendus, ex labore mollitia tenetur inventore fugit vero. Commodi
-        porro quasi amet.
-    </p>
+    <div class="container">
 
-    <img src="assets/img/Noruega Flag.jpg" alt="Bandira da Noruega">
+        <div>
+            <img class="br-50 wh-300 p-30" src="assets/img/Noruega Flag.jpg" alt="Bandira da Noruega">
+        </div>
 
-    <h2>Hino Nacional da Noruega:</h2>
+        <div class="p-30">
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perferendis. Possimus commodi
+                praesentium neque totam incidunt quibusdam deleniti omnis! Impedit, distinctio. Deleniti itaque
+                labore quod voluptas eveniet? Minima, itaque obcaecati.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo earum sequi, a eligendi pariatur
+                quisquam ut tempora quod, similique consequatur soluta nam molestiae vero rerum, optio quidem
+                nostrum. Perferendis, quas!
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ipsa molestiae. Amet sequi eos
+                sapiente ex excepturi asperiores modi repellat alias facilis. Sequi iste, mollitia quod a aliquam
+                id odio.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem esse eligendi soluta, eos
+                placeat saepe ipsum ullam repellendus, ex labore mollitia tenetur inventore fugit vero. Commodi
+                porro quasi amet.
+            </p> 
+        </div>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/EYfOQZU-Hgg" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
+    </div>
+
+    <h2 class="center">Hino Nacional da Noruega:</h2>
+
+    <div class="container mb-50">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/EYfOQZU-Hgg" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
+    <hr>
+    <footer>
+
+        <div class="container">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/youtube.png" alt="Logo do Youtube">
+            </a>
+            
+            <a href="https://twitter.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/twitter.png" alt="Logo do Twitter">
+            </a>
+           
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            
+        </div>
+
+        <p class="center">
+            Pedro Magalhães &copy;
+        </p>
+    </footer>
 
 </body>
 </html>
